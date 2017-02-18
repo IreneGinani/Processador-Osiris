@@ -1,6 +1,7 @@
-# projeto-oac
+# Projeto da Disciplina de Organização e Arquitertura de computadores
 
-### instructions 
+### Operações dispooníveis 
+
 
 OK | AND —> operação booleana AND 
 
