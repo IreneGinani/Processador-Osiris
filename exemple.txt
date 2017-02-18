@@ -1,0 +1,7 @@
+add $r1, $r2, $r3  # Esta instrução soma o conteúdo dos registradores
+                   # $r2 e $r3 colocando o conteúdo no registrador $r1
+ 
+addi $r4, $r1, 9   # Agora estamos somando o conteúdo do registrador
+                   # $r1 com o valor imediato 9 e armazenando o
+                   # resultado em $r4. O número imediato deve ter
+                   # 16 bits.

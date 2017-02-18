@@ -1,0 +1,38 @@
+$date
+<<<<<<< HEAD
+     Nov 29, 2016       15:34:51
+=======
+     Nov 29, 2016       11:55:58
+>>>>>>> thread
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Sep 19 2016 10:48:12
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clock       $end
+$var wire    1  aaaab  reset       $end
+$var wire    1  aaaac  enable       $end
+$var wire    4  aaaad  result [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+0aaaac
+b0 aaaad
+$end
+
+#1000
+1aaaab
+
